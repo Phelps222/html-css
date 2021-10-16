@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#topo {
+    text-align: center;
+}
+
+body {
+    background-image: linear-gradient(to right, #5cc918, #377014);
+}
+
+h1 {
+    color: #033f1c;
+    text-shadow: 1px 2px 4px ;
+}
+
+h2 {
+    color: #033f1c;
+}
+
+a {
+    padding: 7px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+
+
+p {
+    text-align: justify;
+}
+
+main { width: 800px; 
+    margin: auto; 
+    background-color: white; 
+    padding: 10px; 
+    margin-top: 20px;  
+    border-radius: 10px; 
+    box-shadow: 5px 5px 15px rgba(1, 44, 1, 0.973);
+}
+
+h2 {
+    text-align: center;
+}
+
+#voltar {
+    color: blue;
+}
+
+main a:hover {
+    color: green;
+}
+
+footer p {
+    text-align: center;
+}
+

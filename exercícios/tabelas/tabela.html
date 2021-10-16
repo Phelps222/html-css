@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Primeira tabela exemplo</h2>
+    <table>
+        <tr>
+            <th>
+                Nome
+            </th>
+            <th>
+                Idade
+            </th>
+            <th>
+                Endereço
+            </th>
+            <th>
+                CEP
+            </th>
+            <th>
+                CPF
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                João Matos
+            </td>
+            <td>
+                25 anos
+            </td>
+            <td>
+                Rua Jordão Gomes N 4
+            </td>
+            <td>
+                71010174
+            </td>
+            <td>
+                032493924834
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Jonas Arrelaro
+            </td>
+            <td>
+                23 anos
+            </td>
+            <td>
+                Rua Jordão Gomes N 6
+            </td>
+            <td>
+                71010175
+            </td>
+            <td>
+                832982389232
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                Neto Gomes
+            </td>
+            <td>
+                19 anos
+            </td>
+            <td>
+                Rua Lucas 45
+            </td>
+            <td>
+                71010179
+            </td>
+            <td>
+                093829239323
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Marcos Padilha
+            </td>
+            <td>
+                16 anos
+            </td>
+            <td>
+                Guará 1 QI 06
+            </td>
+            <td>
+                71010172
+            </td>
+            <td>
+                032493924834
+            </td>
+        </tr>      
+    </table>
+
+    <hr>
+
+    <h2>Segunda tabela exemplo</h2>
+
+    <table>
+        <caption>Esse é o título ou legenda da tabela</caption>
+        <thead>
+            <tr>
+                <th>Título do cabeçalho</th>
+            </tr>
+            <tr> 
+                <th>Outra linha de título</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Título da primeira linha do corpo da tabela</th>
+            </tr>
+            <tr>
+                <td>Essa é a segunda linha com apenas uma coluna</td>
+            </tr>
+            <tr>
+                <th>Título da linha 3 coluna 1</th>
+                <th>Título da linha 3 coluna 2</th>
+            </tr>
+            <tr>
+                <td>Dados da linha 4 coluna 1</td>
+                <td>Dados da linha 4 coluna 2</td>
+            </tr>
+            <tr>
+                <td>Dados da linha 5 coluna 1</td>
+                <td>Dados da linha 5 coluna 2</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Essa é a linha 1 do rodapé</th>
+            </tr>
+            <tr>
+                <td>Linha 2 Coluna 1 do rodapé</td>
+                <td>Linha 2 coluna 2 do rodapé</td>
+            </tr>
+        </tfoot>
+    </table>  
+    <hr>
+
+    <h2>Tabela de exemplo para rowspan e colspan</h2>
+
+
+
+    <h1>Colspan and rowspan</h1>
+
+    <h3>Cell that spans two columns:</h3>
+    <table>
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th colspan="2">Phone</th>    
+    </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>john.doe@example.com</td>    
+        <td>123-45-678</td>
+        <td>212-00-546</td>    
+    </tr>
+    </table>
+
+    <h3>Cell that spans two rows:</h3>
+    <table>
+    <tr>
+        <th>Name:</th>
+        <td>John Doe</td>
+    </tr>
+    <tr>
+        <th>Email:</th>  
+        <td>john.doe@example.com</td>      
+    </tr>  
+    <tr>
+        <th rowspan="2">Phone:</th>
+        <td>123-45-678</td>
+    </tr>
+    <tr>
+        <td>212-00-546</td>
+    </tr>
+    </table>
+    
+</body>
+</html>
